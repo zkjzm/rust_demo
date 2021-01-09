@@ -7,7 +7,7 @@ struct Oltdto {
     id: String,
     tag: String,
 }
-
+ 
 // Responder
 impl Responder for Oltdto {
     type Error = Error;
