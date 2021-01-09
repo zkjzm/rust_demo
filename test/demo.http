@@ -1,0 +1,18 @@
+get http://127.0.0.1:8080/echo/fdsfd
+###
+
+post http://127.0.0.1:8080/echo
+Content-Type: application/json
+
+{"id":"123","name":"zhao!"}
+###
+
+post http://127.0.0.1:8080/olt
+# Content-Type: application/json
+
+zjm
+###
+post http://127.0.0.1:8080/query
+Content-Type: application/json
+
+{"id":"1","tag":"","username": "zjm"}
